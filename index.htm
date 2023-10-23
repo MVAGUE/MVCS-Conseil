@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#"> <span class="bi bi-house-door"></span>MVCS-Conseil</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,17 +19,17 @@
                 <ul class="navbar-nav ml-auto">
                     <!-- Menu Offres avec menu déroulant -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="offresDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="offresDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Offres
                         </a>
                         <div class="dropdown-menu" aria-labelledby="offresDropdown">
-                            <a class="dropdown-item" href="#">Offres industriels</a>
+                            <a class="dropdown-item" href="#">Offre industriels</a>
                             <a class="dropdown-item" href="#">Offre promoteurs</a>
                             <a class="dropdown-item" href="#">Législation</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="offresDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="offresDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Qui-suis-je
                         </a>
                         <div class="dropdown-menu" aria-labelledby="offresDropdown">
@@ -37,8 +37,8 @@
                             <a class="dropdown-item" href="#">Références</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@
     </nav>
 
     <!-- Bannière -->
-    <div class="jumbotron text-center banner bg-dark">
+    <div class="jumbotron text-center banner bg-dark" style="border-radius: 0">
         <h1 class="display-4 text-light">MVCS</h1>
         <p class="lead text-light"><i> Sous-titre ou slogan</i></p>
     </div>
@@ -58,11 +58,10 @@
     <!--Bienvenue-->
     <div class="container-fluid">
         <div class="container">
-        <h2>Bienvenue chez MVCS-Conseil</h2>
         <p> Nous vous accompagnons pour optimiser les opérations de <b>réhabilitation</b>,
-            <b>valorisation</b>, <b>cession ou acquisition de sites pollués</b><br/><br/></p>
+            <b>valorisation</b>, <b>cession ou acquisition de sites pollués.</b></p>
             
-            <div class="container content">
+            <div class="container content mb-5">
                 <div class="row">
                     <!-- Point 1 -->
                     <div class="col rounded p-3 bg-light mb-3 mr-3">
@@ -90,17 +89,42 @@
         </div>
     </div>
 
-    <!--Presentation-->
-    <div class="container-fluid bg-secondary">
-        <div class="container p-3">
-            <h3>Présentation</h3>
+    <!--Notre mission-->
+    <div class="container-fluid bg-secondary" style="padding-bottom: 65px;">
+        <div class="container p- bg-light p-5">
+            <h3 class="mb-5">Notre mission:</h3>
             <p>
-                MVCS Conseil accompagne les maîtres d'ouvrage pour optimiser les opérations de
+                Nous accompagnons les maîtres d'ouvrage pour optimiser les opérations de
                 réhabilitation, valorisation, cession ou acquisition concernant leur patrimoine immobilier
                 industriel.
             </p>
             <p>
-                Les maîtres d'ouvrage concernés sont Industriels, Collectivités locales et territoriales, Aménageurs, Promoteurs, Sociétés de Portage de sites.
+                <div class="row">
+                    <div class="col border mr-2 p-4 bg-white text-center">
+                        <img src="./imgs/build.png" class="img-fluid mb-3" style="max-height: 100px;" />
+                        <p class="text-underline">Maîtres d'ouvrage concernés:</p>
+                        <ul class="list-unstyled">
+                            <li>Industriels</li>
+                            <li>Collectivités locales et territoriales</li>
+                            <li>Aménageurs</li>
+                            <li>Promoteurs</li>
+                            <li>Sociétés de Portage de sites</li>
+                        </ul>
+                    </div>
+                    <div class="col border ml-2 p-4 bg-white text-center">
+                        <img src="./imgs/site.png" class="img-fluid mb-3" style="max-height: 100px;" />
+                        <p>Sites concernés, ayant supporté une activité de production et/ou de stockage dans les secteurs :</p>
+                        <ul class="list-group text-left ml-5">
+                            <li>chimie, pétrochimie, carbochimie</li>
+                            <li>pharmacie, Parapharmacie</li>
+                            <li>phytosanitaires, pesticides</li>
+                            <li>hydrocarbures, métallurgie, fonderie</li>
+                            <li>cristallerie et céramique, pressing, papier</li>
+                            <li>traitement de surface, textile, tannerie, traitement du bois</li>
+                        </ul>
+                    </div>
+                </div>
+                
             </p>
             <p>
                 Les sites concernés ont supporté une activité de production et/ou de stockage dans les secteurs :
@@ -129,7 +153,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-light text-center py-3 fixed-bottom d-flex">
         <div class="container">
-            MVCS-Conseil - vague.maurice@wanadoo.fr - 06 16 48 04 89
+            MVCS-Conseil - vague.maurice@wanadoo.fr <br/>- 06 16 48 04 89 -
         </div>
     </footer>
 
